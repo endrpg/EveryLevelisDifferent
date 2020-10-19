@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2571FBC0-1C2C-3479-278C-A801387DEE52}</ProjectGuid>
+    <ProjectGuid>{F07E09CD-B8C8-3075-E52F-CB1529F27642}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,8 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\MainMenu\GraphicsSettings.cs" />
     <Compile Include="Assets\MainMenu\MainMenuScript.cs" />
+    <Compile Include="Assets\MainMenu\PauseMenu.cs" />
     <Compile Include="Assets\MainMenu\SetVolume.cs" />
     <Compile Include="Assets\MainMenu\TestAudioButton.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -617,90 +618,90 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.12f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Editor">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>C:/Users/Mike/Desktop/Mike/Template/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <HintPath>C:/Users/Mike/Documents/GitHub/TheFinalBattleRPG/EveryLevelisDifferent/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{9464D26A-1F38-1914-63B8-9D922C0BB47E}</Project>
+      <Project>{D41FFC7D-BC21-E797-C7F2-521180F13BEC}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{282729AC-6F90-921D-F944-4A00609675BF}</Project>
+      <Project>{0AA78F8A-2D02-A43B-5D0B-28D863FCA078}</Project>
       <Name>Unity.2D.Sprite.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
-      <Project>{44B5C142-14FE-F18F-96FD-733FC85819F9}</Project>
+      <Project>{86202C46-2A5C-6F2F-FE9D-3F4BB4C3ECF8}</Project>
       <Name>Unity.2D.Tilemap.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{4AE19830-51BB-C9D1-C94A-B4E4CACF35C1}</Project>
+      <Project>{19D677A2-E93F-53FF-2019-6FCF2F006702}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>
