@@ -62,14 +62,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
+    <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\MainMenu\GraphicsSettings.cs" />
     <Compile Include="Assets\MainMenu\MainMenuScript.cs" />
     <Compile Include="Assets\MainMenu\PauseMenu.cs" />
     <Compile Include="Assets\MainMenu\SetVolume.cs" />
     <Compile Include="Assets\MainMenu\TestAudioButton.cs" />
     <Compile Include="Assets\Scripts\Camera\FollowPlayerCamera.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Input\InputController.cs" />
+    <Compile Include="Assets\Scripts\Input\Joystick\JoystickPlayerInputController.cs" />
     <Compile Include="Assets\Scripts\Input\Keyboard\KeyboardFlappBirdInputController.cs" />
     <Compile Include="Assets\Scripts\Input\Keyboard\KeyboardInfiniteRunnerInputController.cs" />
     <Compile Include="Assets\Scripts\Input\Keyboard\KeyboardInputController.cs" />

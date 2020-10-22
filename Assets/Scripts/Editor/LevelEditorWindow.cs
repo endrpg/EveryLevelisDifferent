@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class LevelEditorWindow : EditorWindow
 {
-    private GameObject worldStart;
+    private Vector3 worldStart;
 
     private GameObject tileIslandStartPrefab;
     private GameObject tileIslandFillerPrefab;
@@ -34,7 +34,7 @@ public class LevelEditorWindow : EditorWindow
     {
         EditorGUILayout.BeginHorizontal();
         GUILayout.Label("World Start Position");
-        worldStart = (GameObject)EditorGUILayout.ObjectField(worldStart, typeof(GameObject), true);
+        worldStart = EditorGUILayout.Vector3Field("", worldStart);
         EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.BeginHorizontal();
@@ -104,12 +104,19 @@ public class LevelEditorWindow : EditorWindow
 
     private void SpawnStraightWorld()
     {
-        var nextPos = worldStart.transform.position;
+        RemoveAllTiles();
+
+        var nextPos = worldStart;
+        GameObject go = new GameObject();
+        go.name = "Level Design";
+        go.tag = "Tile";
         for (int i = 0; i < tileCount; i++)
         {
-            Instantiate(tilePrefab, nextPos, tilePrefab.transform.rotation);
+            var curTile = Instantiate(tilePrefab, nextPos, tilePrefab.transform.rotation);
 
             nextPos.x += tileSpacing;
+
+            curTile.transform.parent = go.transform;
         }
     }
 
@@ -121,7 +128,7 @@ public class LevelEditorWindow : EditorWindow
         go.name = "Level Design";
         go.tag = "Tile";
 
-        var nextPos = worldStart.transform.position;
+        var nextPos = worldStart;
         for (int i = 0; i < segments; i++)
         {
             nextPos.x += tileSpacing * 1.5f;

@@ -14,6 +14,9 @@ public class KeyboardInfiniteRunnerInputController : InputController
         Player.MoveHorizontal(1, runSpeed);
         Player.sprinting = true;
 
-        if (Input.GetKeyDown(KeyCode.Space)) { Player.Jump(new Vector2(0, jumpForce)); }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Player.Jump(new Vector2(0, jumpForce));
+        }
     }
 }
