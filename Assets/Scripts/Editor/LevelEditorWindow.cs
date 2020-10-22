@@ -119,6 +119,7 @@ public class LevelEditorWindow : EditorWindow
 
         GameObject go = new GameObject();
         go.name = "Level Design";
+        go.tag = "Tile";
 
         var nextPos = worldStart.transform.position;
         for (int i = 0; i < segments; i++)
@@ -141,13 +142,10 @@ public class LevelEditorWindow : EditorWindow
 
             var tileCount = Random.Range((int)segmentMinMax.x, (int)segmentMinMax.y);
 
-            Debug.Log(tileCount);
-
             GameObject curTile;
 
             for (int j = 0; j < tileCount; j++)
             {
-                Debug.Log(j);
                 if (useIslands)
                 {
                     if(j == 0)

@@ -67,9 +67,13 @@
     <Compile Include="Assets\MainMenu\PauseMenu.cs" />
     <Compile Include="Assets\MainMenu\SetVolume.cs" />
     <Compile Include="Assets\MainMenu\TestAudioButton.cs" />
-    <Compile Include="Assets\Scripts\Input\EndlessRunnerInputController.cs" />
+    <Compile Include="Assets\Scripts\Camera\FollowPlayerCamera.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Input\InputController.cs" />
-    <Compile Include="Assets\Scripts\Input\KeyboardInputController.cs" />
+    <Compile Include="Assets\Scripts\Input\Keyboard\KeyboardFlappBirdInputController.cs" />
+    <Compile Include="Assets\Scripts\Input\Keyboard\KeyboardInfiniteRunnerInputController.cs" />
+    <Compile Include="Assets\Scripts\Input\Keyboard\KeyboardInputController.cs" />
+    <Compile Include="Assets\Scripts\Input\Keyboard\KeyboardTopDownInputController.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

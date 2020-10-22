@@ -5,17 +5,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField]
-    public bool canAttack = false;
-
-    //movement speeds
-    [SerializeField]
-    private float walkSpeed = 1f;
-    [SerializeField]
-    private float runSpeed = 2f;
-    [SerializeField]
-    private float jumpForce = 10f;
-
     //animation
     private AnimatorOverrideController animOController = null;
     [SerializeField]
@@ -31,24 +20,20 @@ public class PlayerController : MonoBehaviour
 
     //input 
     [HideInInspector]
-    public float horizontal = 0f;
-    [HideInInspector]
     public bool sprinting = false;
-    [HideInInspector]
-    public float vertical = 0f;
     [HideInInspector]
     public bool attacking = false;
     [HideInInspector]
     public bool walking = false;
+    [HideInInspector]
+    public bool isGrounded = false;
 
     //components
     private Rigidbody2D rb = null;
     private CircleCollider2D collider = null;
     private Animator animController = null;
-    private int currentDirection = 1; //1 facing right -1 facing left
 
-    private float currentSpeed = 0;
-    private bool isGrounded = false;
+    private bool canAttack = false;
 
     //do on awake so that it gets called before the attack controller
     void Awake()
@@ -57,7 +42,7 @@ public class PlayerController : MonoBehaviour
 
         SetUpAnimator();
 
-        if (canAttack)
+        if (attackClip != null)
         {
             SetUpAttacking();
         }
@@ -84,6 +69,7 @@ public class PlayerController : MonoBehaviour
 
     private void SetUpAttacking()
     {
+        canAttack = true;
         SetAnimationClip("Attack", attackClip);
     }
 
@@ -95,44 +81,32 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         CheckIfGrounded();
-        Move();
         HandleAnimations();
         //attacking = false;
     }
 
-    private void Move()
+    public void MoveHorizontal(float horizontal, float speed)
     {
-        if (sprinting) { currentSpeed = runSpeed; }
-        else { currentSpeed = walkSpeed; }
-        var xSpeed = horizontal * currentSpeed;
-
-        rb.velocity = new Vector2(xSpeed, rb.velocity.y);
-
-        //handles flipping the player
-        if (horizontal > 0)
-        {
-            currentDirection = 1;
-        }
-        else if (horizontal < 0)
-        {
-            currentDirection = -1;
-        }
-        transform.localScale = new Vector3(currentDirection, 1, 1);
+        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
     }
 
-    public void Jump()
+    public void Flip(int direction) //-1 left //1 right
     {
-        if (isGrounded)
-        {
-            rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
-        }
+        transform.localScale = new Vector3(direction, 1, 1);
+    }
+
+    public void MoveVertical(float vertical, float speed)
+    {
+        rb.velocity = new Vector2(rb.velocity.x, vertical * speed);
+    }
+
+    public void Jump(Vector2 jumpForce)
+    {
+        rb.AddForce(jumpForce, ForceMode2D.Impulse);
     }
 
     private void HandleAnimations()
     {
-        if (horizontal > 0 || horizontal < 0) { walking = true; }
-        else { walking = false; }
-
         animController.SetBool("walking", walking);
         animController.SetBool("sprinting", sprinting);
 
