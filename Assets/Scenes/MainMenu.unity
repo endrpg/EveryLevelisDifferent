@@ -156,7 +156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -20}
+  m_AnchoredPosition: {x: 90, y: 25}
   m_SizeDelta: {x: 309.85767, y: 206.08447}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &60633313
@@ -481,8 +481,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 0, y: -0.000030518}
+  m_SizeDelta: {x: 252.95642, y: 65.854965}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &161059916
 MonoBehaviour:
@@ -733,7 +733,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28, y: 12}
+  m_AnchoredPosition: {x: 45, y: 3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &251177723
@@ -867,7 +867,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 43, y: 113.2}
+  m_AnchoredPosition: {x: 90, y: 85}
   m_SizeDelta: {x: 309.85767, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &257449596
@@ -1007,7 +1007,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -39.4}
+  m_AnchoredPosition: {x: 0, y: -25}
   m_SizeDelta: {x: 323.7923, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &288177022
@@ -1269,7 +1269,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 15}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &356940153
@@ -1384,7 +1384,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -40}
+  m_AnchoredPosition: {x: -90, y: -20}
   m_SizeDelta: {x: 35, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &409270181
@@ -1547,7 +1547,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Alert
+  m_text: Test
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1931,7 +1931,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 40}
+  m_AnchoredPosition: {x: 95, y: 25}
   m_SizeDelta: {x: 309.85767, y: 206.08447}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &561192763
@@ -2367,7 +2367,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.1}
+  m_AnchoredPosition: {x: -69.1, y: 19.9}
   m_SizeDelta: {x: 100, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &693977045
@@ -3091,8 +3091,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 450, y: 800}
-  m_SizeDelta: {x: 900, y: 1600}
+  m_AnchoredPosition: {x: 800, y: 450}
+  m_SizeDelta: {x: 1600, y: 900}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &841730619
 MonoBehaviour:
@@ -3440,7 +3440,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: -23.4}
+  m_AnchoredPosition: {x: 90, y: 0}
   m_SizeDelta: {x: 50, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &988200196
@@ -3952,7 +3952,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28, y: 12}
+  m_AnchoredPosition: {x: 39, y: 3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1087893185
@@ -4765,7 +4765,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: -8.5}
+  m_AnchoredPosition: {x: -0, y: 0}
   m_SizeDelta: {x: 50, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1325339452
@@ -5050,150 +5050,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'ADDITIONAL ART ASSETS
-
-
-
-    ''www.amon.co''
-
-    https://opengameart.org/content/animated-robot
-
-
-
-
-
-    bevouliin.com
-
-    https://opengameart.org/content/limbo-land-monster-sprites
-
-    https://opengameart.org/content/bevouliin-free-game-sprites-crocodile-mascot-running-and-jumping-boy-game-character
-
-    https://opengameart.org/content/flappy-dragon-sprite-sheets
-
-    https://opengameart.org/content/bevouliin-free-game-obstacle-spikes
-
-    https://opengameart.org/content/bevouliin-green-horn-monster-sprite-sheets
-
-    https://opengameart.org/content/bevouliin-free-ingame-items-spike-monsters
-
-    https://opengameart.org/content/bevouliin-pink-monster-sprites
-
-    https://opengameart.org/content/land-torn-monster-sprites
-
-    https://opengameart.org/content/bevouliin-free-orange-bubble-land-monster-sprite-sheets
-
-    https://opengameart.org/content/blue-land-monster-sprites
-
-    https://opengameart.org/content/bevouliin-free-running-and-jumping-mascot-sprite-sheets
-
-    https://opengameart.org/content/bevouliin-free-zombie-sprite-sheets-game-character-for-game-developers
-
-    https://opengameart.org/content/bevouliin-horns-skull-sprite-sheets
-
-
-
-    CraftPix.net
-    2D Game Assets
-
-    https://opengameart.org/content/2d-game-knight-character-sprite
-
-    https://opengameart.org/content/police-2d-sprite
-
-    https://opengameart.org/content/alien-character-sprite-2
-
-    https://opengameart.org/content/pirate-character-sprites
-
-    https://opengameart.org/content/assassin-mage-viking-sprites-pixel-art
-
-    https://opengameart.org/content/reaper-man-chibi-sprites
-
-    https://opengameart.org/content/tiny-hero-sprites-pixel-art
-
-    https://opengameart.org/content/fallen-angel-chibi-sprites
-
-    https://opengameart.org/content/elf-character-sprites
-
-    https://opengameart.org/content/monster-game-sprites
-
-    https://opengameart.org/content/orc-ogre-and-goblin-chibi-sprites
-
-    https://opengameart.org/content/seller-2d-sprite
-
-    https://opengameart.org/content/fairy-2d-sprite
-
-    https://opengameart.org/content/woman-warrior-2d-sprite
-
-    https://opengameart.org/content/elf-2d-game-sprite
-
-
-
-
-
-    Cheb
-    Gonaz
-
-    https://opengameart.org/content/necromancer-spritesheet
-
-
-
-    Curt
-
-    https://opengameart.org/content/zombie-rpg-sprites
-
-
-
-    PixElthen
-
-    https://opengameart.org/content/pixel-art-dwarf-sprites
-
-    https://opengameart.org/content/pixel-art-adventurer-sprites
-
-
-
-    null-painter-error
-
-    https://opengameart.org/content/cute-raccoon-2d-game-sprite-and-animations
-
-
-
-
-
-    Irina
-    Mir (irmirx)
-
-    https://opengameart.org/content/skeleton-animations
-
-    https://opengameart.org/content/zombie-animations
-
-    https://opengameart.org/content/animated-runner-character
-
-
-
-    overcrafted
-
-    https://opengameart.org/content/foxy-2d-character-asset
-
-
-
-    puchvogel
-
-    https://opengameart.org/content/blue-character
-
-    https://opengameart.org/content/cylinder-monster
-
-    https://opengameart.org/content/tiny-knight-red
-
-
-
-    pzUH
-
-    https://opengameart.org/content/free-plane-sprite
-
-
-
-    Segel
-
-    https://opengameart.org/content/mini-zombie'
+  m_text: "ADDITIONAL ART ASSETS\n\nKenney \nwww.kenney.nl\n\n\n'www.amon.co'\nhttps://opengameart.org/content/animated-robot\n\n\n\n\nbevouliin.com\nhttps://opengameart.org/content/limbo-land-monster-sprites\nhttps://opengameart.org/content/bevouliin-free-game-sprites-crocodile-mascot-running-and-jumping-boy-game-character\nhttps://opengameart.org/content/flappy-dragon-sprite-sheets\nhttps://opengameart.org/content/bevouliin-free-game-obstacle-spikes\nhttps://opengameart.org/content/bevouliin-green-horn-monster-sprite-sheets\nhttps://opengameart.org/content/bevouliin-free-ingame-items-spike-monsters\nhttps://opengameart.org/content/bevouliin-pink-monster-sprites\nhttps://opengameart.org/content/land-torn-monster-sprites\nhttps://opengameart.org/content/bevouliin-free-orange-bubble-land-monster-sprite-sheets\nhttps://opengameart.org/content/blue-land-monster-sprites\nhttps://opengameart.org/content/bevouliin-free-running-and-jumping-mascot-sprite-sheets\nhttps://opengameart.org/content/bevouliin-free-zombie-sprite-sheets-game-character-for-game-developers\nhttps://opengameart.org/content/bevouliin-horns-skull-sprite-sheets\n\n\nCraftPix.net
+    2D Game Assets\nhttps://opengameart.org/content/2d-game-knight-character-sprite\nhttps://opengameart.org/content/police-2d-sprite\nhttps://opengameart.org/content/alien-character-sprite-2\nhttps://opengameart.org/content/pirate-character-sprites\nhttps://opengameart.org/content/assassin-mage-viking-sprites-pixel-art\nhttps://opengameart.org/content/reaper-man-chibi-sprites\nhttps://opengameart.org/content/tiny-hero-sprites-pixel-art\nhttps://opengameart.org/content/fallen-angel-chibi-sprites\nhttps://opengameart.org/content/elf-character-sprites\nhttps://opengameart.org/content/monster-game-sprites\nhttps://opengameart.org/content/orc-ogre-and-goblin-chibi-sprites\nhttps://opengameart.org/content/seller-2d-sprite\nhttps://opengameart.org/content/fairy-2d-sprite\nhttps://opengameart.org/content/woman-warrior-2d-sprite\nhttps://opengameart.org/content/elf-2d-game-sprite\n\n\n\n\nCheb
+    Gonaz\nhttps://opengameart.org/content/necromancer-spritesheet\n\n\nCurt\nhttps://opengameart.org/content/zombie-rpg-sprites\n\n\nPixElthen\nhttps://opengameart.org/content/pixel-art-dwarf-sprites\nhttps://opengameart.org/content/pixel-art-adventurer-sprites\n\n\nnull-painter-error\nhttps://opengameart.org/content/cute-raccoon-2d-game-sprite-and-animations\n\n\n\n\nIrina
+    Mir (irmirx)\nhttps://opengameart.org/content/skeleton-animations\nhttps://opengameart.org/content/zombie-animations\nhttps://opengameart.org/content/animated-runner-character\n\n\novercrafted\nhttps://opengameart.org/content/foxy-2d-character-asset\n\n\npuchvogel\nhttps://opengameart.org/content/blue-character\nhttps://opengameart.org/content/cylinder-monster\nhttps://opengameart.org/content/tiny-knight-red\n\n\npzUH\nhttps://opengameart.org/content/free-plane-sprite\n\n\nSegel\nhttps://opengameart.org/content/mini-zombie\n\nCraftPix.net
+    2D Game Assets\n\nArtistic Dude\nhttps://opengameart.org/content/rpg-sound-pack\n\nRubberDuck\nhttps://opengameart.org/content/80-cc0-rpg-sfx\n\n\"Beats
+    Warrior: Nian\" Developer - Liujiajun\nhttps://opengameart.org/content/95-sfx-pack-beats-warrior-nian\n\nBuch\nhttps://opengameart.org/content/golden-ui\n\nCtatz\nhttps://opengameart.org/content/free-ui-asset-pack-1\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5305,7 +5167,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.047428608, y: 25.8}
+  m_AnchoredPosition: {x: 0, y: 25}
   m_SizeDelta: {x: 309.85767, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1419867528
@@ -5578,7 +5440,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -25}
+  m_AnchoredPosition: {x: -75, y: 0}
   m_SizeDelta: {x: 100, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1431539390
@@ -5971,7 +5833,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 30}
+  m_AnchoredPosition: {x: -80, y: 15}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1476072230
@@ -6335,7 +6197,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.32, y: 10.1}
+  m_AnchoredPosition: {x: -90, y: 0}
   m_SizeDelta: {x: 313.34143, y: 140}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1552692577
@@ -7152,7 +7014,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28, y: 12}
+  m_AnchoredPosition: {x: 33, y: 4}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1826778344
@@ -7289,7 +7151,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 80, y: -15}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1828829233
@@ -7940,7 +7802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -40}
+  m_AnchoredPosition: {x: -75, y: -10}
   m_SizeDelta: {x: 100, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2026970008
@@ -8748,7 +8610,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 900, y: 1600}
+  m_SizeDelta: {x: 3000, y: 3000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!210 &2142547210
 SortingGroup:
